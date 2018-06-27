@@ -1,4 +1,4 @@
-# WAB - The Facelift of Blockchain of Blockchain
+# WAB - The Facelift of Blockchain
 
 ## Why WAB? Big Problems That WAB Solves
 
