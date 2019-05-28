@@ -6,7 +6,7 @@ class wabContract  extends IContract
     {
         super(wabAbi,'transfer',tokenAddress);
     }
-    getData(toAddress,IAmount)
+    getData(toAddress,Amount)
     {
         let funcInterface = this.getSolInferface();
         if(funcInterface)
