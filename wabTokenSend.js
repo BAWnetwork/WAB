@@ -5,7 +5,7 @@ class wabTokenSend extends TokenSend
     constructor(from,to,tokenAddress,CoinAmount,gas,gasPrice,nonce)
     {
         super(from,tokenAddress,gas,gasPrice,nonce);
-        this.Contract = new wabContract(tokenAddress);
+        this.Contract = new WABContract(tokenAddress);
         this.trans.setData(this.Contract.getData(to,CoinAmount));
     }
 }
