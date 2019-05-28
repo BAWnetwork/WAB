@@ -1,6 +1,6 @@
 let TokenSend = require("../interface/transaction.js").TokenSend;
 let stampContract = require("../contract/contract.js").stampContract;
-let ownCreateOTAAddress = require("../interface/OTAAddress.js").ownCreateOTAAddress;
+let ownCreateTAAddress = require("../interface/OTAAddress.js").ownCreateOTAAddress;
 class buyStampSend extends TokenSend
 {
     constructor(from,CoinAmount,gas,gasPrice,nonce)
