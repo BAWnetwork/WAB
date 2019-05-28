@@ -17,7 +17,7 @@ if(wabNet.length)
     }
 }
 config.version = '1.0.0';
-config.host = '// http://localhost'; // http://localhost
+config.host = '// http://localhost'; //http://localhost
 config.rpcIpcPath = process.env.HOME;
 if (process.platform === 'darwin') {
     config.rpcIpcPath += '/Library/wab/'+wabNet+'gwab.ipc';
