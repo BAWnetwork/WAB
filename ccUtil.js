@@ -39,7 +39,7 @@ const Backend = {
     getConfig(){
         return config;
     },
-    async init(cfg,ethsender, wabsender,cb){
+    async init(cfg,ethsender,wabsender,cb){
         config = cfg? cfg:require('.config.js');
 		this.EthKeyStoreDir =  new keystoreDir(config.ethKeyStorePath),
 		this.wabKeyStoreDir =  new keystoreDir(config.wabKeyStorePath),
