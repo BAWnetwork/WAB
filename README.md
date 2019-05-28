@@ -40,7 +40,7 @@ Multi-party computing and secret sharing will make cross-chain transactions poss
 
 ###### *DEVELOPER*
 
-More than 10 years of drupal 5,6,7,8 experience and related technologies. 3 years with Meteor framework and MEAN-MERN stack, Cordova, React-native, GraphQl, Apollo stack. 1.5 years with Ethereum/Smart Contracts / Solidity / Blockchain tech stack. Also, Konstantin Viktorov experience with native Android and IOS development.
+More than 10 years of drupal 5,6,7,8 experience and related technologies. 3 years with Meteor framework and MEAN-MERN stack, Cordova, React-native, GraphQl, Apollo stack. 1.5 years with Ethereum / Smart Contracts / Solidity / Blockchain tech stack. Also, Konstantin Viktorov experience with native Android and IOS development.
 
 #### NAVEEN GUPTA
 
