@@ -77,7 +77,7 @@ const MonitorRecord = {
         let p = pu.promisefy(sender.sendMessage, ['getScEvent', config.originalChainHtlc, topics], sender);
         return p;
     },
-    getDepositCrossLockEvent(sender, hashX) {
+    getDepositCrossLockEvent(sender,hashX) {
         let topics = ['0x'+wabUtil.sha3(config.depositCrossLockEvent).toString('hex'), null, null, hashX];
         let p = pu.promisefy(sender.sendMessage, ['getScEvent', config.wabHtlcAddr, topics], sender);
         return p;
