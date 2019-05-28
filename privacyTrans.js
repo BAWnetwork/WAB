@@ -8,7 +8,7 @@ class PrivacySend extends TokenSend
         super(from,null,gas,gasPrice,nonce);
         if(!this.trans.checkWAddress(toWaddress))
         {
-            console.log('waddress is error: ' + toWaddress);
+            console.log('waddress is error:' + toWaddress);
             return;
         }
         this.trans.setValue(CoinAmount.getWei());
